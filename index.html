@@ -11,23 +11,55 @@
     <title>Document</title>
 </head>
 
-<body>
+<body style="background-image: url('assets/images/space.png')">
     <div class="container">
         <div class="row">
-            <h1>Trivia Game!!!</h1>
+            <h1 class="col-sm-12 text-center text-white">Trivia Game!!!</h1>
         </div>
-        <div class="col-sm-12 game">
+        <div class="col-sm-12 text-center text-white game">
             <span>Time Remaining:</span>
             <span id="timer"></span>
         </div>
-        <h2 class="col-sm-12 game" id="question">Question Here</h2>
-        <h2 class="col-sm-12 game"> <button class="button" id="A" value="1">A</button> </h2>
-        <h2 class="col-sm-12 game"> <button class="button" id="B" value="2">B</button> </h2>
-        <h2 class="col-sm-12 game"> <button class="button" id="C" value="3">C</button> </h2>
-        <h2 class="col-sm-12 game"> <button class="button" id="D" value="4">D</button> </h2>
-        <h1 class="col-sm-12" id="answer"></h1>
-        <h1 class="col-sm-12 endgame correct">0</h1>
-        <h1 class="col-sm-12 endgame incorrect">0</h1>
+        <div class="row">
+            <h2 class="col-sm-2"></h2>
+            <h2 class="col-sm-8 text-center game text-white" id="question">Question Here</h2>
+        </div>
+        <div class="row">
+            <h2 class="col-sm-2"></h2>
+            <h2 class="col-sm-8 text-center game"> <button class="button" id="A" value="1">A</button> </h2>
+            <img src="" class="col-sm-2 game" id="pic1">
+        </div>
+        <div class="row">
+            <h2 class="col-sm-2"></h2>
+            <h2 class="col-sm-8 text-center game"> <button class="button" id="B" value="2">B</button> </h2>
+            <img src="" class="col-sm-2 game" id="pic2">
+        </div>
+        <div class="row">
+            <h2 class="col-sm-2"></h2>
+            <h2 class="col-sm-8 text-center game"> <button class="button" id="C" value="3">C</button> </h2>
+            <img src="" class="col-sm-2 game" id="pic3">
+        </div>
+        <div class="row">
+            <h2 class="col-sm-2"></h2>
+            <h2 class="col-sm-8 text-center game"> <button class="button" id="D" value="4">D</button> </h2>
+            <img src="" class="col-sm-2 game" id="pic4">
+        </div>
+        <div class="row">
+            <h2 class="col-sm-2"></h2>
+            <h1 class="col-sm-8 text-center text-white answer"></h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-12"><img src="" class="answer" id="pic"></div>
+
+        </div>
+        <div class="row">
+            <h2 class="col-sm-2"></h2>
+            <h1 class="col-sm-8 text-center text-white endgame correct">0</h1>
+        </div>
+        <div class="row">
+            <h2 class="col-sm-2"></h2>
+            <h1 class="col-sm-8 text-center text-white endgame incorrect">0</h1>
+        </div>
 
 
     </div>
